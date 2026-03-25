@@ -1,0 +1,28 @@
+{
+  "name": "truenoob-mailer",
+  "version": "1.0.0",
+  "description": "mailer submodule for nest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueNooBN1/mailer.git"
+  },
+  "author": "truenoob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrueNooBN1/mailer/issues"
+  },
+  "homepage": "https://github.com/TrueNooBN1/mailer#readme",
+  "dependencies": {
+    "@nestjs-modules/mailer": "^2.3.0",
+    "@nestjs/config": "^4.0.3",
+    "nodemailer": "^8.0.4",
+    "pug": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^7.0.11"
+  }
+}
